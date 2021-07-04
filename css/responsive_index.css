@@ -1,0 +1,374 @@
+/* RESPONSIVE  */
+
+@media only screen and (min-width:884px) and (max-width:1045px) {
+    .navbar {
+        width: 100%;
+        padding: 25px 10px;
+        transition: all .5s ease;
+    }
+    .logo a {
+        font-size: 20px
+    }
+    .navbar .logo {
+        padding-left: 10px;
+    }
+    .menu-list li {
+        list-style: none;
+        margin: 0 15px;
+    }
+    .menu-list li a {
+        font-size: 16px;
+    }
+    .navbar .menu-list li.tch-btn a {
+        padding: 14px 15px;
+    }
+    .home {
+        padding-top: 100px;
+    }
+    .home .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .home .person {
+        float: right;
+        margin: 15px 20px 0;
+        border-radius: 55px 0 55px 0;
+        position: relative;
+        overflow: hidden;
+    }
+    .home .person img {
+        height: 470px;
+        width: 420px;
+        filter: grayscale(.1);
+        transition: filter 1.4s ease;
+    }
+    .home-text {
+        color: #fff;
+        margin-top: 150px;
+        position: absolute;
+    }
+    .home-text h6 {
+        letter-spacing: 5px;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .home-text h1 {
+        font-size: 70px;
+        padding-left: 20px;
+    }
+    .home-text p {
+        max-width: 400px;
+        font-size: 15px;
+        margin-top: 200px;
+    }
+    .home-text .name span {
+        margin-right: 70px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width:630px) and (max-width:884px) {
+    /* NAVBAR  */
+    .navbar {
+        padding: 20px 30px;
+    }
+    .navbar .logo {
+        font-size: 25px;
+        text-align: center;
+    }
+    .navbar .menu-list {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        background-color: #000;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        transition: left 1s ease-out;
+    }
+    #nav-toggle:checked~.menu-list {
+        left: 0%;
+    }
+    .navbar .menu-list li {
+        margin-top: 45px;
+    }
+    .navbar .menu-list li a {
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .navbar .tgle-lbl {
+        display: block;
+    }
+    /* home  */
+    .logo a {
+        font-size: 30px
+    }
+    .navbar .logo {
+        padding-left: 10px;
+    }
+    .menu-list li {
+        list-style: none;
+        margin: 0 15px;
+    }
+    .menu-list li a {
+        font-size: 16px;
+    }
+    .navbar .menu-list li.tch-btn a {
+        padding: 14px 15px;
+    }
+    .home {
+        padding-top: 120px;
+    }
+    .home .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .home .person {
+        float: right;
+        margin: 15px 20px 0;
+        border-radius: 55px 0 55px 0;
+        position: relative;
+        overflow: hidden;
+    }
+    .home .person img {
+        height: 420px;
+        width: 340px;
+        filter: grayscale(.1);
+        transition: filter 1.4s ease;
+    }
+    .home-text {
+        color: #fff;
+        margin-top: 150px;
+        position: absolute;
+    }
+    .home-text h6 {
+        letter-spacing: 2px;
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    .home-text h1 {
+        font-size: 65px;
+        padding-left: 15px;
+    }
+    .home-text .name span {
+        margin-right: 52px;
+        display: inline-block;
+    }
+    .home-text p {
+        max-width: 280px;
+        font-size: 15px;
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-width:520px) and (max-width:630px) {
+    /* NAVBAR  */
+    .navbar .logo {
+        font-size: 20px;
+        text-align: center;
+    }
+    .navbar .menu-list {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        background-color: #000;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        transition: left 1s ease-out;
+    }
+    #nav-toggle:checked~.menu-list {
+        left: 0%;
+    }
+    .navbar .menu-list li {
+        margin-top: 45px;
+    }
+    .navbar .menu-list li a {
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .navbar .tgle-lbl {
+        display: block;
+    }
+    /* home  */
+    .logo a {
+        font-size: 25px
+    }
+    .navbar .logo {
+        padding-left: 8px;
+    }
+    .menu-list li {
+        list-style: none;
+        margin: 0 15px;
+    }
+    .menu-list li a {
+        font-size: 16px;
+    }
+    .navbar .menu-list li.tch-btn a {
+        padding: 15px 13px;
+    }
+    .home {
+        padding-top: 100px;
+        display: block;
+    }
+    .home .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .home .person {
+        float: top;
+        margin: 20px 1rem 15%;
+        margin-left: 15%;
+        border-radius: 55px 0 55px 0;
+        overflow: hidden;
+        position: absolute;
+    }
+    .home .person img {
+        height: 450px;
+        width: 400px;
+        filter: grayscale(.1);
+        transition: filter 1.4s ease;
+    }
+    .home-text {
+        color: #fff;
+        margin-top: 500px;
+    }
+    .home-text h6 {
+        letter-spacing: 2px;
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .home-text h1 {
+        font-size: 20px;
+        padding-left: 0px;
+        display: none;
+    }
+    .home-text h3 {
+        display: block;
+        font-size: 50px;
+        padding-left: 0px;
+    }
+    .home-text .name-mob span {
+        margin-right: 60px;
+        display: inline-block;
+    }
+    .home-text p {
+        max-width: 490px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:520px) {
+    /* NAVBAR  */
+    .navbar .logo {
+        font-size: 15px;
+        text-align: center;
+    }
+    .navbar .menu-list {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        background-color: #000;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        transition: left 1s ease-out;
+    }
+    #nav-toggle:checked~.menu-list {
+        left: 0%;
+    }
+    .navbar .menu-list li {
+        margin-top: 45px;
+    }
+    .navbar .menu-list li a {
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .navbar .tgle-lbl {
+        display: block;
+    }
+    /* home  */
+    .logo a {
+        font-size: 20px
+    }
+    .navbar .logo {
+        padding-left: 8px;
+    }
+    .menu-list li {
+        list-style: none;
+        margin: 50px 15px;
+    }
+    .menu-list li a {
+        font-size: 16px;
+    }
+    .navbar .menu-list li.tch-btn a {
+        padding: 15px 13px;
+    }
+    .home {
+        padding-top: 100px;
+        display: block;
+    }
+    .home .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .home .person {
+        float: top;
+        margin: 20px 0rem 15%;
+        margin-left: 0px;
+        border-radius: 55px 0 55px 0;
+        overflow: hidden;
+        position: absolute;
+    }
+    .home .person img {
+        height: 480px;
+        width: 410px;
+        filter: grayscale(.1);
+        transition: filter 1.4s ease;
+    }
+    .home-text {
+        color: #fff;
+        margin-top: 550px;
+    }
+    .home-text h6 {
+        letter-spacing: 2px;
+        font-size: 35px;
+        padding-left: 15px;
+    }
+    .home-text h1 {
+        font-size: 20px;
+        padding-left: 0px;
+        display: none;
+    }
+    .home-text h3 {
+        display: block;
+        font-size: 40px;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    .home-text .name-mob span {
+        margin-right: 20px;
+        display: inline-block;
+    }
+    .home-text p {
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        max-width: 400px;
+        font-size: 15px;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (min-width:410px) and (max-width:520px) {
+    .home .person {
+        margin-left: 20px;
+    }
+}
